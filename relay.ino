@@ -117,7 +117,7 @@ void maybeReportLowWater() {
 }
 
 bool waterTankFull() {
-  bool full = digitalRead(TANK_SENSOR_PIN) == LOW;
+  bool full = digitalRead(TANK_SENSOR_PIN) == HIGH;
   Serial.print("Tank is full? ");
   Serial.println(full);
   return full;
