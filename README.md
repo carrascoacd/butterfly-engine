@@ -26,7 +26,7 @@ It uses the [Blynk ecosystem](https://blynk.io/). On top of it, the code is writ
 
 ## Secrets
 
-Since this is for personal use, and for obvious reasons, this project relies on Git-Crypt to encrypt the secrets used for the WiFi connection and Blynk. Once you have the key, you can unlock the repository with:
+Since this is for personal use, and for obvious reasons, this project relies on Git-Crypt to encrypt the secrets used for the WiFi connection and Blynk.
 
 ```bash
 git-crypt unlock /path/to/key
